@@ -1,0 +1,64 @@
+@font-face {
+    font-family: JetBrainsMono;
+    src: url(JetBrainsMono-LightItalic.ttf);
+}
+
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #ffffff;
+    font-family: JetBrainsMono;
+    background-color: #010b13;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+article {
+    display: block;
+    max-width: 50%;
+    padding: 5%;
+    margin: 0 auto;
+}
+
+#gear {
+    color: #82aaff;
+    font-size: 5vw;
+}
+
+h1 {
+    font-size: 4vw;
+    color: #ffca6a;
+}
+
+p {
+    font-size: 1.7vw;
+}
+
+p:nth-child(2) {
+    color: #c792ea;
+}
+
+a {
+    color: #c3e88d;
+}
+
+a:hover {
+    text-decoration: none;
+}
