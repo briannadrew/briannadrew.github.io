@@ -39,16 +39,16 @@ article {
 
 #gear {
     color: #82aaff;
-    font-size: 5vw;
+    font-size: clamp(35px, 5vw, 65px);
 }
 
 h1 {
-    font-size: 4vw;
+    font-size: clamp(20px, 4vw, 50px);
     color: #ffca6a;
 }
 
 p {
-    font-size: 1.7vw;
+    font-size: clamp(10px, 1.7vw, 25px);
 }
 
 p:nth-child(2) {
